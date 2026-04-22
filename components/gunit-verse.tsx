@@ -570,7 +570,7 @@ export default function GunitVerse() {
               transition={{ duration: 0.5 }}
               className="grid md:grid-cols-2 gap-8"
             >
-              {(skills as any)[skillType].map((skill, index) => (
+              {(skills as any)[skillType].map((skill: any, index: number) => (
                 <motion.div
                   key={skill.name}
                   initial={{ opacity: 0, x: -20 }}
