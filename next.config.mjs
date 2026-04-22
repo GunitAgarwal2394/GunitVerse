@@ -1,15 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/GunitVerse",
-  assetPrefix: "/GunitVerse/",
+  basePath: "/Portfolio",
+  assetPrefix: "/Portfolio/",
+};
 
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
-
-export default nextConfig
+export default nextConfig;
