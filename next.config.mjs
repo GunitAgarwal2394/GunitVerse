@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/GunitVerse",
+  assetPrefix: "/GunitVerse/",
+
   typescript: {
     ignoreBuildErrors: true,
   },
