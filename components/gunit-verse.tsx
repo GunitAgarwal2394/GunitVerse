@@ -30,13 +30,15 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Progress } from "@/components/ui/progress"
 import Image from "next/image"
+import profileImg from "../public/profile.jpg"
+import reactivePortfolioImg from "../public/reactive-portfolio.jpg"
 
 const projects = [
   {
     id: 1,
     title: "Reactive Portfolio",
     description: "A dynamic and interactive portfolio showcasing modern web development skills",
-    image: "/reactive-portfolio.jpg",
+    image: reactivePortfolioImg,
     category: "Frontend",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     link: "https://gunitag.vercel.app",
@@ -354,7 +356,7 @@ export default function GunitVerse() {
             >
               <div className="relative">
                 <Image
-                  src="/profile.jpg"
+                  src={profileImg}
                   alt="Gunit Agarwal - Data Analyst and Web Developer"
                   width={500}
                   height={500}
