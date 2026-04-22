@@ -36,7 +36,7 @@ const projects = [
     id: 1,
     title: "Reactive Portfolio",
     description: "A dynamic and interactive portfolio showcasing modern web development skills",
-    image: "./GunitVerse/reactive-portfolio.jpg",
+    image: "/reactive-portfolio.jpg",
     category: "Frontend",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     link: "https://gunitag.vercel.app",
@@ -354,7 +354,7 @@ export default function GunitVerse() {
             >
               <div className="relative">
                 <Image
-                  src="/GunitVerse/profile.jpg"
+                  src="/profile.jpg"
                   alt="Gunit Agarwal - Data Analyst and Web Developer"
                   width={500}
                   height={500}
